@@ -1,4 +1,5 @@
-import os
+from app import app
+
 import pickle
 import numpy as np
 import pandas as pd
@@ -6,18 +7,12 @@ import nltk
 import sklearn.feature_extraction
 from flask import Flask, request, jsonify
 
-app = Flask(__name__)
-
 modelo = pickle.load(open('notebook/modelo.pk1','rb'))
 modelo_messages_words = pickle.load(open('notebook/messages_words.pk1','rb'))
 
 nltk.download('stopwords')
 stopwords = nltk.corpus.stopwords.words('portuguese')
 
-
-@app.route("/")
-def verifica_api_online():
-  return "API ONLINE v1.0", 200
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -47,8 +42,3 @@ def process_text_conteudo(conteudo):
   clean_palavras = [palavra for palavra in nopont.split() if palavra not in stopwords]
 
   return clean_palavras
-
-
-if __name__ == "__main__":
-  port = int(os.environ.get("PORT", 5000))
-  app.run(debug = True, host='0.0.0.0', port=port)

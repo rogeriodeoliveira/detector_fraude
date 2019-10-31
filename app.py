@@ -1,14 +1,14 @@
-import numpy as np
-from flask import Flask, request, jsonify
-import pickle
 import os
+import pickle
+import numpy as np
 import pandas as pd
 import nltk
 import sklearn.feature_extraction
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-modelo = pickle.load(open('notebook/messages_words.pk1','rb'))
+modelo = pickle.load(open('notebook/modelo.pk1','rb'))
 modelo_messages_words = pickle.load(open('notebook/messages_words.pk1','rb'))
 
 nltk.download('stopwords')

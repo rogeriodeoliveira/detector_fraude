@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+    {% block content %}
+    <section class="bg-danger">
+    <div class="container text-center">
+        <h1 class="text-white pt-5">O Sistema classificou o texto como FRAUDE</h1>
+        <p class="text-white font-weight-bold">
+            É recomendado que você descarte esta mensagem (E-mail ou SMS)!
+        </p>
+        
+        <div class="alert alert-light" role="alert">
+                Como regra geral você deve desconfiar de um e-mail que você não esteja
+                esperando receber.
+        </div>
+        <div class="alert alert-light" role="alert">
+                Instituições “sérias”, (Bancos por exemplo) nunca pedem dados pessoais 
+                por e-mail e nem fornecem link para acessar uma página.
+        </div>
+        <div class="alert alert-light" role="alert">
+                Na dúvida procure se informar a respeito do e-mail, utilizando por 
+                exemplo o telefone, ou outro meio de comunicação, que você sabe que é “verdadeiro”.
+        </div>
+        <div class="alert alert-light" role="alert">
+                Se você não se cadastrou em nenhuma promoção, é pouco provável que você 
+                tenha ganho algum prêmio. Estes tipos de mensagem são iscas para você 
+                passar informações pessoais.
+        </div>
+    </div>
+</section>
+{% endblock%}

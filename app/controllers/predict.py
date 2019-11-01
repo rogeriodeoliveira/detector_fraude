@@ -1,3 +1,4 @@
+from flask import render_template
 from app import app
 
 import pickle
@@ -26,9 +27,13 @@ def predict():
 
   predicao = modelo.predict(loaded_vectorizer.transform(text_process))
   resultado = predicao[0]
-  resposta = {'FRAUDE': int(resultado)}
-  
-  return jsonify(resposta)
+  #resposta = {'FRAUDE': int(resultado)}
+  if resultado == 1:
+    return render_template('fraude.html')
+  elif resultado == 0:
+    return render_template('notfraude.html')
+
+  #return jsonify(resposta)
 
 def process_text_conteudo(conteudo):
   import unicodedata

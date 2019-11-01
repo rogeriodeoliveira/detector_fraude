@@ -7,6 +7,4 @@ from app.models.forms import TextSubmit
 def index():
   form = TextSubmit()
 
-  if form.validate_on_submit():
-    print(form.texto.data)
   return render_template('index.html', form=form)

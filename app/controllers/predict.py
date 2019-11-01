@@ -17,9 +17,10 @@ stopwords = nltk.corpus.stopwords.words('portuguese')
 @app.route('/predict', methods=['POST'])
 def predict():
 
-  dados = request.get_json(force=True)
+  dados = request.form.to_dict()
+  dados = dados['texto']
   
-  text_process = process_text_conteudo(dados.values())
+  text_process = process_text_conteudo(dados)
 
   loaded_vectorizer = sklearn.feature_extraction.text.CountVectorizer(vocabulary=modelo_messages_words)
 

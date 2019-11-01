@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg-green {
+    /* The image used */
+    background-color: rgb(0, 209, 178) ;
+  
+    /* Full height */
+    height: 95%;
+  }
+  .bg-danger {
+    /* The image used */
+    background-color: #dc3545 ;
+  
+    /* Full height */
+    height: 95%;
+  }
+  .bg-light {
+    /* The image used */
+    background-color: #f8f9fa ;
+  
+    /* Full height */
+    height: 100%;
+  }

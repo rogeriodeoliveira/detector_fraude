@@ -1,0 +1,6 @@
+Olá, Maria José, pronto para um novo desafio DEV? 
+Hoje sai o terceiro vídeo da semana developer. Lembrando que esta é uma aula para todos os níveis de conhecimento. 
+Ou seja, se você está no nível básico, intermediário ou avançado, a aula será bem produtiva e você aprenderá muito sobre vários temas. 
+Como Nodejs, MongoDB, VueJS e muito mais: esta aula ficará no ar somente durante 7 dias, então recomendo assistir agora mesmo, pois se você deixar para depois, ela poderá não estar mais disponível!  
+
+Equipe xyz

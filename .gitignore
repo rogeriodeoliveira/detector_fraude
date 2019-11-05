@@ -1,3 +1,5 @@
 env
 .vscode
 __pycache__
+messages_words.pk1
+modelo.pk1

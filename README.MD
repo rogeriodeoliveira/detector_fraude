@@ -5,7 +5,10 @@
 
   
 
-Aplicação desenvolvida em Python e Flask.
+
+Esta aplicação tem como objetivo analisar textos de e-mail ou SMS ou outros para identificar uma mensagem fraudulenta.
+
+A aplicação foi desenvolvida utilizando Python - Flask e IA.
 
 Você pode ver a aplicação no link  [https://fraud-analyzer.herokuapp.com/](https://fraud-analyzer.herokuapp.com/) 
 

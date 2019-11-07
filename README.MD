@@ -10,10 +10,8 @@ Esta aplicação tem como objetivo analisar textos de e-mail ou SMS ou outros pa
 
 A aplicação foi desenvolvida utilizando Python - Flask e IA.
 
-Você pode ver a aplicação no link  [https://fraud-analyzer.herokuapp.com/](https://fraud-analyzer.herokuapp.com/) 
 
-(*A aplicação está hospedada na Heroku em uma conta gratuita, por isso ao acessar a página pela primeira vez ela irá demorar um tempo para carregar, pois o servidor fica em estado de hibernação.*)
-
+Você pode ver a aplicação no link  [https://fraud-analyzer.mybluemix.net/](https://fraud-analyzer.mybluemix.net/) 
 
 Esta aplicação utiliza Inteligência Artificial (Machine Learnig) para classificar textos como **Fraude** e **Não-Fraude**.
 

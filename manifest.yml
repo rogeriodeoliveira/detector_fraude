@@ -1,0 +1,7 @@
+applications:
+ - path: .
+   name: fraud-analyzer
+   random-route: false
+   memory: 1G
+   disk_quota: 1G
+   instances: 1

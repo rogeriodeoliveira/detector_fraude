@@ -2,6 +2,8 @@ import requests
 import json
 import config
 
+# Crie o arquivo config.py e adicione a chave da API
+# Exemplo API_KEY_VT = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 API_KEY_VT = config.API_KEY_VT
 
 def scan_url(urlscan):

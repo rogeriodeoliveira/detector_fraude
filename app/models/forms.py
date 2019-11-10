@@ -6,3 +6,4 @@ from wtforms.widgets import TextArea
 
 class TextSubmit(FlaskForm):
     texto = StringField("texto", widget=TextArea(),validators=[DataRequired()])
+    link = StringField("link")

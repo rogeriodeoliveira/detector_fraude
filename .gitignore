@@ -3,3 +3,4 @@ env
 __pycache__
 messages_words.pk1
 modelo.pk1
+config.py

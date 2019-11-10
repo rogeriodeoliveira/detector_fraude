@@ -6,10 +6,17 @@
         <p class="text-center text-info">Sistema de Identificação de Fraudes utilizando Inteligência Artificial</p>
         <p class="text-center text-info">Copie e cole (ou digite) o conteúdo do e-mail (texto) no campo abaixo e Clique no botão Analisar</p>
             <!-- <form method="POST" action="/predict"> -->
-            <form method="POST" action="/predict">
+            <form method="POST" action="/resultado">
                 {{ form.csrf_token }}
                 <div class="form-group">
-                    {{ form.texto(class='form-control', cols="35", rows="14") }}
+                    {{ form.texto(class='form-control', cols="35", rows="10") }}
+
+                </div>
+                <div class="form-group">
+                    <p class="text-center text-info">Caso na mensagem possua link, você pode analisar se há presença de Malwares</p>
+                        <p class="text-center text-info">Copie e cole a URL no campo abaixo</p>
+                    {{ form.link(class='form-control', cols="35") }}
+
                 </div>
                 <div class="text-center pb-5">
                     <input class="btn btn-info btn-lg" type="submit" value="Analisar">

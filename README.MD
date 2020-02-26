@@ -37,7 +37,7 @@ Esta aplicação utiliza Inteligência Artificial (Machine Learnig) para classif
 
   
 
-Vídeo: [Demo](https://youtu.be/bNecZlE7BUc)
+Vídeo: [Demo](https://youtu.be/Qw4TNMLDzC0)
 
   
 

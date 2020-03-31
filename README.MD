@@ -47,6 +47,6 @@ O modelo de classificação foi feito utilizando o Jupyter notebook, ele esta di
 
 Este modelo trabalha com 2 datasets, um contendo e-mails classificados como fraudulentos e o segundo deverá conter e-mail não fraudulentos.
 
-O **primeiro dataset** você pode fazer o download dele [aqui](https://github.com/rogeriodeoliveira/scrapy_fraudes_rnp/blob/master/dataset_fraudes.csv)
+O **primeiro dataset** você pode fazer o download dele [aqui](https://github.com/rogeriodeoliveira/detector_fraude/blob/master/fraude.csv)
 
 O **segundo dataset** foi criado a partir de mensagens pessoais, então eu não vou disponibilizar este dataset, porém eu também estou disponibilizando um script para gerar este dataset para treinamento deste modelo. Você pode acessá-lo no repositório [gerador_dataset](https://github.com/rogeriodeoliveira/gerador_dataset) juntamente com um pequeno tutorial de como eu fiz para exportar os e-mails.

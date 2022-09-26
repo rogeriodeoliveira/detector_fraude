@@ -11,8 +11,6 @@ Esta aplicação tem como objetivo analisar textos de e-mail ou SMS ou outros pa
 A aplicação foi desenvolvida utilizando Python - Flask e IA.
 
 
-Uso Real  [https://rogeriodeoliveira.com/analisador-fraude](https://rogeriodeoliveira.com/analisador-fraude) 
-
 Esta aplicação utiliza Inteligência Artificial (Machine Learnig) para classificar textos como **Fraude** e **Não-Fraude**.
 
   
